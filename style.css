@@ -29,7 +29,7 @@ html{
 .header{
     width: 100%;
     height: calc(100vh-7rem);
-    background: linear-gradient(rgba(83, 122, 180, 0.9),rgba(153, 197, 255, 0.8)),
+    background: linear-gradient(rgba(83, 122, 180, 0.95),rgba(153, 197, 255, 0.95)),
     url(./images/header-bg.svg) center no-repeat;
     background-size: cover;
     position: relative;
@@ -43,7 +43,7 @@ html{
 }
 
 .heading{
-    font-size: 8rem;
+    font-size: 500%;
     color: rgb(34, 34, 33);
 }
 
@@ -68,9 +68,9 @@ html{
 .logo h1 span{
     font-size:2rem;
     font-weight: 900;
-    color: rgb(44, 44, 44);
-    text-shadow: 0.2rem 0.2rem rgba(13, 13, 240, 0.534);
-    background-color: rgba(255, 251, 251, 0.651);
+    color: rgb(255, 255, 255);
+    text-shadow: 0.2rem 0.2rem rgba(1, 1, 34, 0.384);
+    background-color: rgba(1, 0, 8, 0.315);
     width: 3.5rem;
     height: 3.5rem;
     margin: 0.5rem;
@@ -148,7 +148,8 @@ html{
 }
 
 .header-image{
-    width: 28%;
+    width: 25rem;
+    padding: 3rem;
     transition: 1s;
 }
 
